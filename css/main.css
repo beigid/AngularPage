@@ -51,6 +51,9 @@ html, body {
       margin-top: 10px;
     margin-bottom: 30px;
     max-width: 100%;
+    width:220px;
+    height:330px;
+    max-height:auto;
    }
    
    .title,
@@ -130,3 +133,10 @@ html, body {
       margin: 0 10px;
    }
    
+
+   @media screen and (max-width: 407px){
+     .thumbnail img {
+       max-height:100%;
+      
+     }
+   }
